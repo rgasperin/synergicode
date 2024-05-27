@@ -72,6 +72,41 @@ body {
   padding: 65px 0px;
 }
 
+.section-padding-ceo {
+  width: 100%;
+  padding: 65px 0px 0px 0px;
+}
+
+.section-padding-teams {
+  width: 100%;
+  padding: 150px 0px;
+}
+
+#nosso-time {
+  display: flex;
+  align-items: center;
+  background-image: url("../imgs/background_teams.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.icon-ceo {
+  font-size: 50px;
+}
+
+.text-ceo {
+  font-size: 22px;
+}
+
+.container-ceo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .section-padding p {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -96,6 +131,15 @@ body {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
+#background-ceo {
+  background-image: url("../imgs/background_allan.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 /* Mobile -- Responsive */
 
 @media (min-width: 1365px) {
@@ -105,6 +149,14 @@ body {
 }
 
 @media (max-width: 640px) {
+  .txt-banner-synergi {
+    font-size: 40px;
+  }
+
+  .sub-txt-synergi {
+    font-size: 45px;
+  }
+
   .hero .btn-get-started {
     font-size: 14px;
   }
