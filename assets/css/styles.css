@@ -69,7 +69,7 @@ body {
 
 .section-padding {
   width: 100%;
-  padding: 65px 0px;
+  padding: 100px 0px;
 }
 
 .section-padding-ceo {
@@ -140,11 +140,48 @@ body {
   height: auto;
 }
 
+.img-fluid-about {
+  width: 55%;
+  height: auto;
+}
+
+.img-fluid-ceo {
+  width: 100%;
+  height: auto;
+}
+
 /* Mobile -- Responsive */
 
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1024px) {
+  .txt-banner-synergi {
+    font-size: 50px;
+  }
+
+  .sub-txt-synergi {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 990px) {
+  .hidden {
+    display: none;
+  }
+
+  .img-fluid-ceo {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-text-team {
+    padding: 0px;
   }
 }
 
@@ -160,7 +197,4 @@ body {
   .hero .btn-get-started {
     font-size: 14px;
   }
-}
-
-@media (min-width: 1200px) {
 }
